@@ -23,10 +23,10 @@ Para executar o código da classe *`"DesafioLogica.py"`*, siga os seguintes pass
 ### Exemplo de saída
 Ao executar o comando *`python DesafioLogica.py`*, o console exibe o seguinte resultado:
 
-\`\`\`
+```
 Teste 1: False
 Teste 2: True
-\`\`\`
+```
 
 **Explicação dos resultados:**
 
