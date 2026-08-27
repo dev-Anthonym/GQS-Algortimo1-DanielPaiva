@@ -13,7 +13,7 @@ Esse código *`"DesafioLogica.py"`* tem como propósito principal, identificar s
 Para executar o código *`"DesafioLogica.py"`*, siga os seguintes passos:
 1. Certifique-se de ter o Python 3 instalado na sua máquina.
    - Verifique com o comando:
-   - *`python3 --version`*
+   - *`python --version`*
 
 2. Clone o repositório:
    - Exemplo: *"git clone [https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)"*
