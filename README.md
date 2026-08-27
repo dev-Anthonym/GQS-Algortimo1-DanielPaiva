@@ -13,7 +13,7 @@ Para executar o código da classe *`"DesafioLogica.py"`*, siga os seguintes pass
    - Exemplo: *"git clone [https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)"*
 
 3. Acesse a pasta do projeto:
-   cd gqs-algoritmo-01-py
+   - cd gqs-algoritmo-01-py
 
 4. Execute o script:
-   python3 DesafioLogica.py
+   - python3 DesafioLogica.py
