@@ -42,6 +42,15 @@ if entrada is None:
 ```
 Antes de processar qualquer coisa, a função verifica se *`entrada`* é *`None`* (ou seja, se não existe nenhum valor). Se for o caso, ela já retorna *`False`* imediatamente, evitando erros ao tentar processar um valor inexistente.
 
+   - **2. Limpeza da string com expressão regular**
+```python
+limpa = re.sub(r'[^a-zA-Z0-9]', '', entrada).lower()
+```
+A função `re.sub()` substitui, em toda a string, qualquer trecho que corresponda a um padrão de expressão regular. O padrão `[^a-zA-Z0-9]` significa "qualquer caractere que **não** seja letra (a-z, A-Z) nem número (0-9)" — o `^` dentro dos colchetes indica negação.
+
+Na prática, isso remove espaços, vírgulas, hífens e acentos (como "ô" e "ã"), substituindo-os por uma string vazia `''`. Em seguida, `.lower()` converte todo o texto restante para minúsculas, garantindo que "A" e "a" sejam tratados como o mesmo caractere na comparação final.
+
+*Exemplo:* a frase `"Socorram-me, subi no ônibus em Marrocos"` se torna `"socorrammesubinoonibusemmarrocos"` após essa etapa.
 
 
 
