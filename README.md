@@ -52,11 +52,21 @@ Na prática, isso remove espaços, vírgulas, hífens e acentos (como "ô" e "ã
 
 *Exemplo:* a frase `"Socorram-me, subi no ônibus em Marrocos"` se torna `"socorrammesubinoonibusemmarrocos"` após essa etapa.
 
+   - **3. Inversão da string com slicing**
+```python
+invertida = limpa[::-1]
+```
+Aqui é usado o **slicing** (fatiamento), um recurso do Python para "recortar" partes de uma string. A notação *`[::-1]`* percorre todos os caracteres da string, mas de trás para frente, criando uma nova string invertida.
 
+*Exemplo:* *`"socorrammesubinoonibusemmarrocos"`* invertida continua sendo *`"socorrammesubinoonibusemmarrocos"`* — o que já indica que é um palíndromo.
 
-
-
-
+   - **4. Comparação final**
+```python
+return limpa == invertida
+```
+A função compara a string limpa com sua versão invertida:
+   - Se forem **exatamente iguais** → retorna *`True`* (é um palíndromo).
+   - Se forem **diferentes** → retorna *`False`* (não é um palíndromo).
 
 ### O Mistério dos Testes
    - **Teste 1** usa a frase `"A sacada da casa de cadasa"`. Ao remover espaços/pontuação e comparar com sua versão invertida, o resultado não é igual, portanto o retorno é `False` (não é um palíndromo).
