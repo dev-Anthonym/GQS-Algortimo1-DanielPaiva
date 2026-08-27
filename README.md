@@ -2,8 +2,10 @@
 
 ## Nível 1 - O Básico da Investigação
 
+### Propósito do código
 Essa classe *`"DesafioLogica.py"`* tem como propósito principal, identificar se as seguintes frases: ***"A sacada da casa de cadasa"*** e ***"Socorram-me, subi no ônibus em Marrocos"***, são ou não um palíndromo.
 
+### Como executar
 Para executar o código da classe *`"DesafioLogica.py"`*, siga os seguintes passos:
 1. Certifique-se de ter o Python 3 instalado na sua máquina.
    - Verifique com o comando:
