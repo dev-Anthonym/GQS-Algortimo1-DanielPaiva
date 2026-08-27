@@ -30,6 +30,8 @@ Teste 2: True
 
 **Explicação dos resultados:**
 
-- **Teste 1** usa a frase *`"A sacada da casa de cadasa"`*. Ao remover espaços/pontuação e comparar com sua versão invertida, o resultado não é igual, portanto o retorno é *`False`* (não é um palíndromo).
+- **Teste 1** usa a frase **.
 
-- **Teste 2** usa a frase *`"Socorram-me, subi no ônibus em Marrocos"`*, um palíndromo clássico da língua portuguesa. Mesmo removendo a pontuação, os espaços e ignorando acentuação, a versão limpa da frase é idêntica à sua forma invertida, portanto o retorno é *`True`*.
+- **Teste 2** usa a frase **.
+
+## Nível 2 - 
