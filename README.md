@@ -6,11 +6,11 @@ Essa classe *`"DesafioLogica.py"`* tem como propósito principal, identificar se
 
 Para executar o código da classe *`"DesafioLogica.py"`*, siga os seguintes passos:
 1. Certifique-se de ter o Python 3 instalado na sua máquina.
-   Verifique com o comando:
-   *`python3 --version`*
+   - Verifique com o comando:
+   - *`python3 --version`*
 
-2. Clone o repositório (se ainda não tiver feito):
-   git clone [https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)
+2. Clone o repositório:
+   - Exemplo: *"git clone [https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)"*
 
 3. Acesse a pasta do projeto:
    cd gqs-algoritmo-01-py
