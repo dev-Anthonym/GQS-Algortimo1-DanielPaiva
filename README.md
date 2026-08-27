@@ -10,7 +10,7 @@ Para executar o código da classe *`"DesafioLogica.py"`*, siga os seguintes pass
    *`python3 --version`*
 
 2. Clone o repositório (se ainda não tiver feito):
-   git clone [GitHub](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)
+   git clone [https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git](https://github.com/dev-Anthonym/gqs-algoritmo-01-py.git)
 
 3. Acesse a pasta do projeto:
    cd gqs-algoritmo-01-py
