@@ -22,19 +22,19 @@ Para executar o código *`"DesafioLogica.py"`*, siga os seguintes passos:
    - cd gqs-algoritmo-01-py
 
 4. Execute o script:
-   - python3 DesafioLogica.py
+   - python DesafioLogica.py
 
 ### Exemplo de saída
 Ao executar o comando *`python DesafioLogica.py`*, o console exibe o seguinte resultado:
 
-```
+```python
 Teste 1: False
 Teste 2: True
 ```
 
 ## Nível 2 - Engenharia Reversa e Análise de Comportamento
 
-### Desvendando os método
+### Desvendando os métodos
 
 #### Papel do bloco principal (`if __name__ == "__main__":`)
    - O trecho *`if __name__ == "__main__":`* funciona como o ponto de entrada do programa, sendo executado quando o arquivo é iniciado diretamente. Dentro dele, são definidas as duas frases de teste *`(texto1`* e *`texto2)`*, a função *`analisar()`* é chamada para cada uma delas e o resultado (*`True`* ou *`False`*) é exibido no console por meio do *`print()`*.
@@ -84,4 +84,7 @@ A função compara a string limpa com sua versão invertida:
 
 ## Sobre o Autor
 Documentação e fork realizados por **Anthony Magalhães** como parte da atividade "Missão README", com o objetivo de investigar, executar e documentar o funcionamento do código *`DesafioLogica.py`*.
-🔗 [GitHub](https://github.com/dev-Anthonym)
+
+Código-fonte original criado por **Daniel Paiva** ([@danhpaiva](https://github.com/danhpaiva)).
+
+🔗 [Meu GitHub](https://github.com/dev-Anthonym)
