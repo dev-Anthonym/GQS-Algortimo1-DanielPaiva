@@ -30,7 +30,8 @@ Teste 2: True
 
 ## Nível 2 - Engenharia Reversa e Análise de Comportamento
 
-
+### Desvendando os método
+   - O trecho *`if __name__ == "__main__":`* funciona como o ponto de entrada do programa, sendo executado quando o arquivo é iniciado diretamente. Dentro dele, são definidas as duas frases de teste *`(texto1`* e *`texto2)`*, a função *`analisar()`* é chamada para cada uma delas e o resultado (*`True`* ou *`False`*) é exibido no console por meio do *`print()`*.
 
 ### O Mistério dos Testes
 
