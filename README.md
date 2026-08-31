@@ -75,9 +75,9 @@ A função compara a string limpa com sua versão invertida:
 
 ### O Mistério dos Testes
 | Teste   | Frase                                          | Resultado | É palíndromo? |
-|---------|------------------------------------------------|-----------|----------------|
-| Teste 1 | "A sacada da casa de cadasa"                   | `False`   | Não            |
-| Teste 2 | "Socorram-me, subi no ônibus em Marrocos"      | `True`    | Sim            |
+|---------|------------------------------------------------|-----------|---------------|
+| Teste 1 | "A sacada da casa de cadasa"                   | `False`   | Não           |
+| Teste 2 | "Socorram-me, subi no ônibus em Marrocos"      | `True`    | Sim           |
    - **Teste 1** usa a frase `"A sacada da casa de cadasa"`. Ao remover espaços/pontuação e comparar com sua versão invertida, o resultado não é igual, portanto o retorno é `False` (não é um palíndromo).
    - **Teste 2** usa a frase `"Socorram-me, subi no ônibus em Marrocos"`, um palíndromo clássico da língua portuguesa. Mesmo removendo a pontuação, os espaços e ignorando acentuação, a versão limpa da frase é idêntica à sua forma invertida, portanto o retorno é `True`.
 
